@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet-async"; // ✅ async and aligned
 import Home from "./pages/Home/Home";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Login from "./pages/Login/Login";
@@ -22,15 +23,22 @@ const App = () => {
       }
     });
   }, []);
+
   return (
-    <div>
-      <ToastContainer theme='dark'/>
+    <>
+      {/* ✅ Inject favicon and title */}
+      <Helmet>
+        <title>Netflix Clone - GreatStack</title>
+        <link rel="icon" href="/icon.ico" type="image/x-icon" />
+      </Helmet>
+
+      <ToastContainer theme="dark" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/player/:id" element={<Player />} />
       </Routes>
-    </div>
+    </>
   );
 };
 
