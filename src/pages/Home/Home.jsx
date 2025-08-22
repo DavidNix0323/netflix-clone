@@ -16,9 +16,7 @@ const Home = () => {
         <div className="hero-caption">
           <img src={hero_title} alt="" className="caption-img" />
           <p>
-            Discovering his ties to a secret ancient order, a young man living
-            in modern Istanbul embarks on a quest to save the city from an
-            immortal enemy.
+          When a young boy vanishes, a small town uncovers a mystery involving secret experiments, supernatural forces, and one strange little girl.
           </p>
           <div className="hero-btns">
             <button className='btn'><img src={play_icon} alt="" />Play</button>

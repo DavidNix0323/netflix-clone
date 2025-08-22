@@ -28,7 +28,7 @@ const App = () => {
     <>
       {/* ✅ Inject favicon and title */}
       <Helmet>
-        <title>Netflix Clone - GreatStack</title>
+        <title>Netflix Clone</title>
         <link rel="icon" href="/icon.ico" type="image/x-icon" />
       </Helmet>
 
