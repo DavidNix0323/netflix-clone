@@ -15,7 +15,7 @@
 .caption-img {
   position: absolute;
   bottom: 14rem; /* Adjust this for vertical placement */
-  left: 6rem;
+  left: 7rem;
   width: 90%;
   max-width: 420px;
   z-index: 10;
