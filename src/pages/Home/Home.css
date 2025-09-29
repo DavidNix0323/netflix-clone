@@ -14,10 +14,8 @@
 }
 .caption-img {
   position: absolute;
-
   bottom: 14rem;
   left: 5rem;
-
   width: 90%;
   max-width: 420px;
   z-index: 10;
